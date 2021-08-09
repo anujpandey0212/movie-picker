@@ -1,0 +1,42 @@
+#foot{
+    background-color: black;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+     overflow: hidden; 
+} 
+ #heading{
+    position: absolute;
+    color: white;
+    font-size:  178%;
+    display: inline-flex;
+    top: 27%;
+    left: 8%;
+    font-family: 'Dancing Script', cursive;
+    
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about_page{
+    overflow-x: hidden;
+}
+#anuj{
+    height:150px;
+}
+#contact a img{
+    height:20px;
+}
+#contact{
+    padding-top: 30px;
+    padding-right:20px;
+}
+#last img{
+    padding-left: 80px;
+    overflow: hidden;
+}
+#last p{
+    font-family: 'Lato', sans-serif;
+}

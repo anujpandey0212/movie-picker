@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+
+overflow-x:hidden;
+margin: 0px;
+background-color:  #0e1224;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+#head{
+    align-self: center;
+    background-color: #141414;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#navigation{
+    background: linear-gradient(270deg, #6C72CB 0%, #CB69C1 100%);
+    padding: 20px;
+}
+#main{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.link{
+    position: relative;
+width: 300px;
+height: 300px;
+margin: 3rem;
+padding: 40px;
+color: white;
+text-align: center;
+ overflow-y: hidden;
+}
+.link{
+    text-decoration: none;
+    background: linear-gradient(270deg, #6C72CB 0%, #CB69C1 100%);
+    
+box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+/* border-top: 5px linear-gradient(border-top, #6C72CB 0%, #CB69C1 100%);
+border-left: 5px solid rgba(203, 105, 193, 0.5);
+border-right: 5px solid rgba(108,114,203,0.5); */
+border-radius: 30px;
+}
+a:link {
+    transition: color 0.5s, transform 0.5s;
+  }
+a:hover {
+    color:white;
+    transform:scale(1.1);
+  }
+
+.link{
+    position: relative;
+    text-decoration: none;
+}
+
+
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10,#img11,#img12{
+    position:relative;
+    align-items: center;
+}
+
+
+#foot{
+    background-color: #141414;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+     overflow: hidden; 
+}
+.vl{
+    
+    border-left: 2px solid white;
+    height: 74%;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+} 
+ #heading{
+    position: absolute;
+    color: white;
+    font-size:  246%;
+    display: inline-flex;
+    top: 27%;
+    left: 17%;
+    font-family: 'Dancing Script', cursive;
+    
+}
+#movies{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about_page{
+    padding-top: 80px;
+    padding-bottom: 90px;
+    margin-left: 6%;
+    margin-right: 80px;
+}
+.about_page h1{
+color: white;
+font-size: 50px;
+font-family: 'Lato', sans-serif;
+}
+.about_page p{
+    color: white;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    overflow: hidden;
+    display: flex;
+
+    justify-content: left;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#wrapper{
+    display: flex;
+    
+}
+#anuj{
+    height:300px;
+}
+#movies a div{
+    padding-top: 40px;
+    font-size: 20px;
+}
+#contact a{
+    text-decoration: none;
+    padding-left: 10%;
+}
+#contact a img{
+    height: 35px;
+}
+#foot{
+    overflow: hidden;
+}
+#contact{
+    padding-left: 65%;
+    padding-top: 3%;
+
+}
+#contact p{
+    color:white;
+    padding-left: 15%;
+}
